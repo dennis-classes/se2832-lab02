@@ -29,7 +29,7 @@ to be atomic without the usage of blocks.
  ## 4. Deliverables
  Add a file called write-up.md.  In the write up include your name, email, and a casual discussion about the following the questions:
 
- What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?  Include a table with the following three columns:  original line number, fault description, and bug description.
+ What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?  Include a table with the following three columns:  original line number, fault description, and fix description.
 
  *THESE SHOULD BE ORIGINAL LINE NUMBERS, SO TAKE CARE WHEN RECORDING CHANGES*  (You will lose **TWENTY** points if these are not the original line numbers.)
 
