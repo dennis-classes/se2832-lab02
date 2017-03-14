@@ -28,7 +28,9 @@ to be atomic without the useage of blocks.
  
  ##4. Deliverables
  Add a file called write-up.md.  In the write up include your name, email, and a casual discussion about the following the questions:
- What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?
+ What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?  Include a table with the following three columns:  original line number, fault description, and bug description.
+ 
+ *THESE SHOULD BE ORIGINAL LINE NUMBERS, SO TAKE CARE WHEN RECORDING CHANGES*  (You will lose #20# points if these are not the original line numbers.)
  
  ### Testing Style Guides
 * In general, a unit test should test one single concept.  In general, you should not have a single JUnit test with large number
