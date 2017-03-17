@@ -4,12 +4,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/*
- * SE1021
- * Winter 2016
- * Brad Dennis
- * 3/9/2017
- */
 public class CircularQueueTest {
     @Before
     public void setUp() throws Exception {
