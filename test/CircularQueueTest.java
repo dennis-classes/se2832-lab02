@@ -23,11 +23,14 @@ public class CircularQueueTest {
 
     @Test
     public void isEmpty() throws Exception {
-        //Arrange & Act
+        //Arrange
         CircularQueue<String> queue = new CircularQueue<>(10);
 
+        //Act
+        boolean result = queue.isEmpty();
+
         //Assert
-        assertTrue(queue.isEmpty());
+        assertTrue(result);
     }
 
 }
