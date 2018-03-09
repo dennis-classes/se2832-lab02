@@ -56,8 +56,8 @@ to be atomic without the usage of blocks.
 Grading will be done on the following criteria:
 
 * **The degree to which the instructions were followed. (10%)** A satisfactory result is every instruction followed.  A less than satisfactory result is one or more items not followed.
-* **The number of faults found, corrected, and compliance to reporting. (40%)**  An excellent result would be correcting every fault in the file. A satisfactory result would be identifying 80% or more.  Each entry in the defect table has concise, corrct, and clear content for line number, fault, inputs, expected, actual and fix description.
+* **The number of faults found, corrected, and compliance to reporting. (40%)**  An excellent result would be correcting every fault in the file. A satisfactory result would be identifying 80% or more.  Each entry in the defect table has concise, correct, and clear content for line number, fault, inputs, expected, actual and fix description.
 * **The quality of unit tests. (30%)** An excellent result would have every test with a verbose and expressive name, clearly arranged using the AAA model, testing only one concept.
 * **The quality of and degree of policy compliance for fixes. (20%)** An excellent result would be every fix has a useful and traceable comment, a single commit with a useful and traceable comment, and an entry in the table. A satisfactory result would be 1 to 2 fixes not having complete test cases, comments, or individual commits.
 
-* **Bonus Work** 10 points will be given if you use Github issues to record the defects and add traceability back to the issues in your treatment of the fixes. 
+* **Bonus Work** 10 points will be given if you use Github issues to record the defects and add traceability back to the issues in your treatment of the fixes and tests. 
