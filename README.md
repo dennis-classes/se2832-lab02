@@ -1,4 +1,4 @@
-# SE2832 Lab 1: Testing a Circular Queue with JUnit
+# SE2832 Lab 2: Testing a Circular Queue with JUnit
 
 ## 1. Introduction
 
@@ -29,7 +29,7 @@ to be atomic without the usage of blocks.
  ## 4. Deliverables
  Add a file called write-up.md.  In the write up include your name, email, and a casual discussion about the following the questions:
 
- What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?  Include a table with the following three columns:  original line number, fault description, and fix description.
+ What sort of strategy did you use to come up with your test cases?  How did you know when you were finished?  Include a table with the following seven columns:  defect number, original line number, fault description, test inputs, expected output, actual output, and fix applied.
 
  *THESE SHOULD BE ORIGINAL LINE NUMBERS, SO TAKE CARE WHEN RECORDING CHANGES*  (You will lose **TWENTY** points if these are not the original line numbers.)
 
@@ -51,7 +51,13 @@ to be atomic without the usage of blocks.
        sizeShouldReturnZeroWhenListIsEmpty
 
 
-### Grading
-   * Did you follow the style guides?
-   * Did you find all the errors in the queue?
-   * How well organized and thought out are the tests?
+## Grading
+
+Grading will be done on the following criteria:
+
+* **The degree to which the instructions were followed. (10%)** A satisfactory result is every instruction followed.  A less than satisfactory result is one or more items not followed.
+* **The number of faults found, corrected, and compliance to reporting. (40%)**  An excellent result would be correcting every fault in the file. A satisfactory result would be identifying 80% or more.  Each entry in the defect table has concise, corrct, and clear content for line number, fault, inputs, expected, actual and fix description.
+* **The quality of unit tests. (30%)** An excellent result would have every test with a verbose and expressive name, clearly arranged using the AAA model, testing only one concept.
+* **The quality of and degree of policy compliance for fixes. (20%)** An excellent result would be every fix has a useful and traceable comment, a single commit with a useful and traceable comment, and an entry in the table. A satisfactory result would be 1 to 2 fixes not having complete test cases, comments, or individual commits.
+
+* **Bonus Work** 10 points will be given if you use Github issues to record the defects and add traceability back to the issues in your treatment of the fixes. 
